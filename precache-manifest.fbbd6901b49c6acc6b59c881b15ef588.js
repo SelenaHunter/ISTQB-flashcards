@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06eaf8c7d1a09567d5912f4d0ac93866",
+    "revision": "1937293ce3e16c5d9ebc3e8169efd398",
     "url": "/istqb-flashcards/index.html"
   },
   {
