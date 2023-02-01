@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/istqb-flashcards/static/css/main.20fb528f.chunk.css",
+    "main.js": "/istqb-flashcards/static/js/main.8dcb88d3.chunk.js",
+    "main.js.map": "/istqb-flashcards/static/js/main.8dcb88d3.chunk.js.map",
+    "runtime-main.js": "/istqb-flashcards/static/js/runtime-main.58985f05.js",
+    "runtime-main.js.map": "/istqb-flashcards/static/js/runtime-main.58985f05.js.map",
+    "static/js/2.7abf2bdc.chunk.js": "/istqb-flashcards/static/js/2.7abf2bdc.chunk.js",
+    "static/js/2.7abf2bdc.chunk.js.map": "/istqb-flashcards/static/js/2.7abf2bdc.chunk.js.map",
+    "index.html": "/istqb-flashcards/index.html",
+    "precache-manifest.30025badcf3851f3f6fa3ee08e4e47c6.js": "/istqb-flashcards/precache-manifest.30025badcf3851f3f6fa3ee08e4e47c6.js",
+    "service-worker.js": "/istqb-flashcards/service-worker.js",
+    "static/css/main.20fb528f.chunk.css.map": "/istqb-flashcards/static/css/main.20fb528f.chunk.css.map",
+    "static/js/2.7abf2bdc.chunk.js.LICENSE.txt": "/istqb-flashcards/static/js/2.7abf2bdc.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/istqb-flashcards/static/media/texture1.ddd68c7f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58985f05.js",
+    "static/js/2.7abf2bdc.chunk.js",
+    "static/css/main.20fb528f.chunk.css",
+    "static/js/main.8dcb88d3.chunk.js"
+  ]
+}
