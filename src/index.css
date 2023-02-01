@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    --focus: #f05800;
+    --link: #1f7d00;
+    --button: #1a809e;
+    --button-border: #3e5554;
+    --page-background: #dee5e5;
+    --card-border: #647674;
+    --card-background: #eff4f4;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* ============
+     General
+  ============= */
+
+:focus {
+    outline: 5px solid var(--focus)
+}
+
+hr {
+    background-color: var(--card-border);
+    margin: 1rem;
+    border: none;
+    height: 1px;
+}
+
+.main {
+    width: 90vw;
+    padding: 0 5vw;
+    display: flex;
+    min-height: 100vh;
+    background-color: var(--page-background);
+    flex-direction: column;
+}
+
+.mainContent {
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--page-background);
+    border: 1px solid var(--card-border);
+}
+
+.mainContent::before {
+    background-image: url(texture1.jpg);
+    opacity: 0.6;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+button {
+    position: static;
+    background-color:var(--button);
+    color: var(--card-background);
+    border: 2px solid var(--button-border);
+    padding: 0.3rem 0.6rem;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: var(--button-border);
+    transition: background-color 0.2s ease;
+}
+
+
+/* ============
+    Typography
+  ============= */
+
+.error {
+    color: #e40000;
+    font-weight: 700;
+}
+
+p {
+    margin: 0.5rem;
+}
+
+a {
+    color: var(--link);
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--focus);
+    transition: color 0.2s ease;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+h1 {
+    padding: 2rem 0 0.5rem 0;
+    font-size: 2.5rem;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+/* ============
+      Footer
+  ============= */
+
+.footer {
+    font-size: 12px;
+    padding: 1rem;
+    background-color: var(--page-background);
+}
+
+
+/* ============
+    Flashcards
+  ============= */
+
+/* hr {
+    color: var(--page-background);
+    margin: 1.5rem;
+} */
+
+
+.card {
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 30rem;
+    height: 15rem;
+    border: 5px solid var(--card-border);
+    background-color: var(--card-background);
+    border-radius: 0.6rem;
+    position: relative;
+}
+
+.wordwrap { 
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+ }
+
+
+/* ============
+      Media
+     Queries
+  ============= */
+
+/* @media screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    .info {
+        font-size: 10px;
+    }
+
+    .main {
+        padding: 0.5rem;
+    }
+} */
