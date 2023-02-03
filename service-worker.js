@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ISTQB-flashcards/precache-manifest.11220c48ca33e784f505eb6095fe5e90.js"
+  "/ISTQB-flashcards/precache-manifest.6983448e5a5d4294100c23a9e85e3db5.js"
 );
 
 self.addEventListener('message', (event) => {

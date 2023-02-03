@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93c6d33fa9532301ae3bace2ab7442f1",
+    "revision": "680db452a15f09afeeeec27b940da73a",
     "url": "/ISTQB-flashcards/index.html"
   },
   {
-    "revision": "bdfab75a187b36815cb2",
-    "url": "/ISTQB-flashcards/static/css/main.565a93e7.chunk.css"
+    "revision": "ed5de21118eed49f2214",
+    "url": "/ISTQB-flashcards/static/css/main.eb729207.chunk.css"
   },
   {
     "revision": "339ed6a2b03f1bb80df0",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ISTQB-flashcards/static/js/2.7abf2bdc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bdfab75a187b36815cb2",
-    "url": "/ISTQB-flashcards/static/js/main.8dcb88d3.chunk.js"
+    "revision": "ed5de21118eed49f2214",
+    "url": "/ISTQB-flashcards/static/js/main.ff0f5da2.chunk.js"
   },
   {
     "revision": "a8d0f734ffd63f421ce4",
